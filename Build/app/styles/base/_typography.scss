@@ -1,0 +1,46 @@
+%font-stack--body {
+  	@include vaudRegular; 
+}
+
+%font-stack--headers {
+  	@include vaudBold;  
+}
+
+%font-feijoa--headers {
+  	@include feijoaMedium;  
+}
+
+%font-extrabold{
+	@include vaudExtrabold;  
+}
+
+%type--base-body {
+  	@extend %font-stack--body; //extend the body stack
+}
+
+%type--base-h1 {
+  	@extend %font-stack--headers;   
+}
+
+%type--base-h2 {
+  @extend %font-stack--headers; //extend headers (which extend body stack and give them a heavier weight)
+  font-size: 1.5em; //font-size adjustment
+}
+
+%type--extra-h2 {
+  @extend %font-feijoa--headers;
+}
+
+
+h1{
+	@extend %font-extrabold;
+}
+
+h2{
+	@extend %font-stack--headers;
+}
+
+p{
+	@extend %type--base-body;
+}
+

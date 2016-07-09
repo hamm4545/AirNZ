@@ -1,0 +1,34 @@
+@mixin vaudExtrabold() {
+	font-family: "vaudextrabold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin vaudBold() {
+	font-family:'vaudbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin vaudRegular() {
+	font-family: 'vaudregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin feijoaMedium() {
+	font-family: "feijoa-medium", Times, "Times New Roman", serif;
+	font-weight: normal;
+	font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+

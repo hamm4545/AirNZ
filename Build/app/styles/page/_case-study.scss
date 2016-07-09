@@ -1,0 +1,27 @@
+section{
+	background: $light-grey;
+	&.white{
+		background: $white;
+
+		&.bg-image{	
+			width: 100%;
+			height: 500px;	
+			background: url(../images/content/bg.png) no-repeat center $white;
+			background-size: cover;		 
+		}
+	}
+
+	&.grey{
+		background: $light-grey;
+
+		&.bg-image{	
+			
+			background: url(../images/content/antarctica_globe.png) no-repeat center center $light-grey;
+			background-size: 800px;					 
+		}
+	}
+	
+}
+
+
+

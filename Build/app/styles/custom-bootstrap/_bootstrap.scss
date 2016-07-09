@@ -1,5 +1,6 @@
 // Core variables and mixins
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
 // Resets and dependencies
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
@@ -13,6 +14,6 @@
 // Utility classes
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+// @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
 
 
