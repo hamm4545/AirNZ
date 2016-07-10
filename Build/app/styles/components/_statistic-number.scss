@@ -1,6 +1,6 @@
 .statistic-number{
 	text-align: center;
-	margin: 150px 0;
+	margin: 125px 0;
 
 	&__line{	
 		width: 80%;
@@ -30,9 +30,17 @@
 
 	&__explanation{
 		margin: 10px 0;
+		line-height: 1.2em;
+		
 		
 		span{
-			display: inline-block;
+			display: inline;
+
+			@media screen and (min-width: $screen-sm){
+				&{
+					display: inline-block;
+				}
+			}
 		}
 	}
 }

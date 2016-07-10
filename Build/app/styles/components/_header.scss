@@ -7,27 +7,30 @@ header{
 		width: 100%;
 		height: 400px;
 		text-align: center;
+		@include transition(all 0.3s ease-in-out);
 
 		@media screen and (min-width: $screen-md){
 			&{
-				height: 600px;
+				height: 500px;
 			}
 		}
 
 		&__blurb{
 			color: $white;
 			padding-top: 110px;
+			@include transition(all 0.3s ease-in-out);
 
 			@media screen and (min-width: $screen-md){
 				&{
-					padding-top: 180px;
+					padding-top: 160px;
 				}
 			}
 
 			h1{
 				font-size: 50px;
 				line-height: 1em;	
-				margin: 0;	
+				margin: 0;
+				@include transition(all 0.3s ease-in-out);	
 
 				@media screen and (min-width: $screen-sm){
 					&{
