@@ -1,7 +1,13 @@
 .quote{
 	text-align: center;
 	@extend %font-feijoa--headers;
-	margin: 120px 0;
+	margin: 30px 0 60px;
+
+	@media screen and (min-width: $screen-md){
+		&{
+			margin: 60px 0 120px;
+		}
+	}
 
 	&__mark{
 		font-size: 50px;

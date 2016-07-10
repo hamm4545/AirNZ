@@ -1,13 +1,13 @@
 .statistic-number{
 	text-align: center;
-	margin: 100px 0;
+	margin: 150px 0;
 
 	&__line{	
 		width: 80%;
 		height: 1px;
 		background: $dark-grey;
 		display: inline-block;
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 
 		@media screen and (min-width: $screen-md){
 			&{
@@ -29,8 +29,8 @@
 	}
 
 	&__explanation{
-		margin: 20px 0;
-
+		margin: 10px 0;
+		
 		span{
 			display: inline-block;
 		}
