@@ -15,7 +15,7 @@
 }
 
 %type--base-body {
-  	@extend %font-stack--body; //extend the body stack
+  	@extend %font-stack--body; 
 }
 
 %type--base-h1 {
@@ -23,14 +23,13 @@
 }
 
 %type--base-h2 {
-  @extend %font-stack--headers; //extend headers (which extend body stack and give them a heavier weight)
-  font-size: 1.5em; //font-size adjustment
+  @extend %font-stack--headers; 
+  font-size: 1.5em; 
 }
 
-%type--extra-h2 {
+%type--base-h3 {
   @extend %font-feijoa--headers;
 }
-
 
 h1{
 	@extend %font-extrabold;
@@ -38,9 +37,26 @@ h1{
 
 h2{
 	@extend %font-stack--headers;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2em;
+	margin: 0;
+
+	@media screen and (min-width: $screen-md) {
+		&{
+			line-height: 1.5em;
+		}
+	}
+}
+
+h3{
+	@extend %type--base-h3;
+	font-size: 30px;
 }
 
 p{
 	@extend %type--base-body;
+	font-size: 17px;
+	line-height: 1.2em;
 }
 

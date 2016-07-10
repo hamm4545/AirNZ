@@ -1,0 +1,38 @@
+.statistic-number{
+	text-align: center;
+	margin: 100px 0;
+
+	&__line{	
+		width: 80%;
+		height: 1px;
+		background: $dark-grey;
+		display: inline-block;
+		margin-bottom: 40px;
+
+		@media screen and (min-width: $screen-md){
+			&{
+				width: 396px;
+			}
+		}
+	}
+
+	&__hero{
+		@extend %font-extrabold;
+		font-size: 60px;
+		line-height: 1em;
+
+		@media screen and (min-width: $screen-md){
+			&{
+				font-size: 100px;
+			}
+		}
+	}
+
+	&__explanation{
+		margin: 20px 0;
+
+		span{
+			display: inline-block;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.quote{
+	text-align: center;
+	@extend %font-feijoa--headers;
+	margin: 120px 0;
+
+	&__mark{
+		font-size: 50px;
+		line-height: 0.7em;
+		margin: 0;
+
+		@media screen and (min-width: $screen-md){
+			&{
+				font-size: 95px;
+			}
+		}
+	}
+
+	&__text{
+		margin: 0;
+	}
+
+	&__line{
+		width: 256px;
+		height: 1px;
+		background: $dark-grey;
+		display: inline-block;
+	}
+}

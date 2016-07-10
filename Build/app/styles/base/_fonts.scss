@@ -1,13 +1,14 @@
 @mixin vaudExtrabold() {
 	font-family: "vaudextrabold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
+	font-weight: 700;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
 
 @mixin vaudBold() {
 	font-family:'vaudbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
